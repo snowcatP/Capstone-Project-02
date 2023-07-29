@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+}
+
+.top-container {
+    height: 100vh;
+    padding-top: 50px;
+    display: flex;
+    position: relative;
+    background-color: #e4f9f5;
+}
+
+#moon-img {
+    width: 150px;
+    position: absolute;
+    right: 30vh;
+    top: 8vh;
+}
+
+#spaceship-img {
+    width: 200px;
+    position: absolute;
+    left: 20vh;
+    bottom: 15vh;
+}
+
+#astronaut-img {
+    width: 200px;
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+}
+
+.profile-img {
+    height: 250px;
+    border-radius: 50%;
+}
+
+.skill-container img {
+    height: 200px;
+}
+
+
+.skill-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 2% auto 0 auto;
+    text-align: left;
+    gap: 2rem;
+
+}
+
+.bottom-container {
+    text-align: center;
+    margin: 5% auto 0 auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 2% auto 0 auto;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.title {
+    display: block;
+    position: relative;
+    top: 150px;
+    margin-top: 10px;
+    font-family: 'Borel', cursive;
+}
+
+h1, h2 {
+    font-family: 'Borel', cursive;
+}
+
+.title > h2 {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+#footer {
+    background-color: #e4f9f5;
+}
+
+.btn-contact {
+    background-color: aquamarine;
+}
